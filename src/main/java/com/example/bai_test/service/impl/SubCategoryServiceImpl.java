@@ -1,4 +1,4 @@
-package com.example.bai_test.service.imp;
+package com.example.bai_test.service.impl;
 
 import com.example.bai_test.response.SubCategoryResponse;
 import com.example.bai_test.entity.SubCategory;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class SubCategoryServiceImp implements SubCategoryService {
+public class SubCategoryServiceImpl implements SubCategoryService {
 
     @Autowired
     private SubCategoryRepository categoryRepository;

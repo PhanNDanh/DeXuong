@@ -1,4 +1,4 @@
-package com.example.bai_test.service.imp;
+package com.example.bai_test.service.impl;
 
 import com.example.bai_test.response.CategoryResponse;
 import com.example.bai_test.entity.Category;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CategoryServiceImp implements CategoryService {
+public class CategoryServiceImpl implements CategoryService {
     @Autowired
     private CategoryRepository categoryRepository;
 

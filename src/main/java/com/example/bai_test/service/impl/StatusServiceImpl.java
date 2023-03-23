@@ -1,4 +1,4 @@
-package com.example.bai_test.service.imp;
+package com.example.bai_test.service.impl;
 
 import com.example.bai_test.response.StatusResponse;
 import com.example.bai_test.entity.Status;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class StatusServiceImp implements StatusService {
+public class StatusServiceImpl implements StatusService {
 
     @Autowired
     private StatusMapper statusMapper;

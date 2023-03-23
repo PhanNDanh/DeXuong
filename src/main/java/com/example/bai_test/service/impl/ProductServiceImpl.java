@@ -1,4 +1,4 @@
-package com.example.bai_test.service.imp;
+package com.example.bai_test.service.impl;
 
 import com.example.bai_test.exception.notfound.Exception;
 import com.example.bai_test.response.ProductResponsee;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ProductServiceImp implements ProductService {
+public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductRepository productRepository;

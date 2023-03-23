@@ -1,4 +1,4 @@
-package com.example.bai_test.service.imp;
+package com.example.bai_test.service.impl;
 
 import com.example.bai_test.config.mapper.BrandMapper;
 import com.example.bai_test.response.BranResponse;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class BrandServiceImp implements BrandService {
+public class BrandServiceImpl implements BrandService {
 
     @Autowired
     private BrandRepository brandRepository;
